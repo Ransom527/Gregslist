@@ -1,0 +1,44 @@
+#nav {
+	background-color: lightgray;
+	line-height: 50px;
+	margin: 0;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#nav ul {
+	list-style-type: none;
+	float: right;
+	margin: 0;
+	padding-right: 10px;
+}
+
+#nav ul li {
+	display: inline-block;
+}
+
+#nav a {
+	text-decoration: none;
+
+}
+
+#searchbox {
+	margin: 40px 40px 40px 40px;
+}
+
+button {
+	height: 30px;
+}
+
+label {
+	display: inline-block;
+	border: solid black 1px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
