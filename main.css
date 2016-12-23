@@ -19,10 +19,9 @@
 
 #nav a {
 	text-decoration: none;
-
 }
 
-#searchbox {
+.section {
 	margin: 40px 40px 40px 40px;
 }
 
@@ -32,13 +31,46 @@ button {
 
 label {
 	display: inline-block;
-	border: solid black 1px;
-    line-height: 30px;
+	border: solid #999 1px;
+    line-height: 28px;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 2px -4px 0 -4px;
+}
+
+.paging {
+	margin: -2px 0 0 0;
+	display: inline-block;
+}
+
+.form-button {
+	height: 22px;
+	border-radius: 0;
 }
 
 body {
 	margin: 0;
 	padding: 0;
+}
+
+.listings {
+padding-top: 40px;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+/* */
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
